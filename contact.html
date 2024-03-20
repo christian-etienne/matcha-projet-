@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Le T Matcha - Boutique</title>
+    <link rel="stylesheet" href="styleindex.css">
+</head>
+<body>
+    <header>
+        <div class="header">
+            <img class="imghead" src="images/imagetea.png" alt="logo matcha"/>
+            <a href="index.html"><img class="imghead1" src="images/Le T.png" alt="logo site"/></a>
+            <a href="profil.html"><img class="imghead" src="images/imagecompte.png" alt="logo compte"/></a>
+        </div>
+    </header>
+
+    <aside class="sidebar">
+        <div class="menu">
+            <a class="lien_index" href="boutique.html">Boutique</a>
+            <a class="lien_index" href="histoire.html">Histoire</a>
+            <a class="lien_index" href="apropos.html">A propos</a>
+            <a class="lien_index" href="contact.html">Contact</a>
+        </div>
+    </aside>
+
+    <main>
+        <div class="cont_contact">
+            <h2>Contactez-nous</h2>
+			<p>Une question, envie de nous envoyer un message ?<br> N’hésitez pas à utiliser ce formulaire pour prendre contact avec nous !</p>
+			<div class="contactez-nous">
+				<select name="civilité">
+					<option value="Sélectionez">Sélectionez votre civilité</option>
+					<option value="Monsieur">Monsieur</option>
+					<option value="Madame">Madame</option>
+                    <option value="Non binaire">Non binaire</option>
+				</select>
+				<div class="prenom">
+					<label for="prenom"> Entrez votre prenom</label>
+					<input class="L1" type="text" name="prenom" id="prenom" ><br>
+					<label for="nom"> Entrez votre nom</label>
+					<input class="L1" type="text" name="nom" id="nom" ><br>
+					<label for="adressepostale"> Entrez votre adresse postale</label>
+					<input class="L1" type="adressepostale" name="adressepostale" id="adresse" placeholder="monadresse@mail.com"required><br>
+					<label for="sujet"> Quel est le sujet de votre message?</label>
+					<input class="L1" type="sujet" name="nom" id="sujet" ><br>
+					<label class="message" for="message">Votre message:</label>
+					<textarea id="message" name="message" placeholder="Bonjour, je vous contacte car...." required></textarea>
+					</div>
+					<div>
+					<input class="L1" type="checkbox" name="checkbox">J'ai lu et j'accepte la politique de confidentialité
+					de l’entreprise.
+					<button type="submit">Envoyer mon message</button>	
+				</div>		
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <section class="entetebas">
+            <nav class="entete">
+                <h3>Navigation</h3>
+                <ul>
+                    <li><a class="footer-link" href="index.html">Accueil</a></li>
+                    <li><a class="footer-link" href="boutique.html">Boutique</a></li>
+                    <li><a class="footer-link" href="histoire.html">Histoire</a></li>
+                    <li><a class="footer-link" href="apropos.html">A propos</a></li>
+                    <li><a class="footer-link" href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <img id="thanks" src="images/thanks.webp" alt="Thanks">
+            <p>Campus des Innovations <br>
+                Place du 8 mai 1945 <br>
+                13500 Martigues
+            </p>
+        </section>
+    </footer>
+</body>
+</html>
