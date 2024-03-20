@@ -1,0 +1,390 @@
+/* GENERAL */
+
+body{
+	margin: 0;
+}
+.header{
+	height: 70px;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	top: 0;
+}
+.imghead{
+	height: 40px;
+	width: 50px;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+.imghead1{
+	height: 160px;
+	width: 200px;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+.menu{
+	bottom: 0;
+	width: 5%;
+	background-color: #136F63;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+    position: fixed;
+	top: 70px;
+}
+.lien_index{
+	writing-mode: vertical-lr;
+	transform: rotate(180deg);
+	text-decoration: none;
+	color: white;
+	font-size: 20px;
+	padding: 20px;
+	background-color: #136F63;
+	height: 80px;
+}
+.lien_index:hover{
+	background-color: #C6EBBE;
+	border-radius: 20%;
+}
+main {
+    flex-grow: 1;
+    padding-left: 5%;
+}
+.entetebas{
+	padding-left: 120px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+	text-decoration: none;
+}
+#thanks{
+    height: 80px;
+    width: 250px;
+	display: flex;
+	text-decoration: none;
+}
+footer .footer-link {
+    text-decoration: none !important;
+    color: #000; 
+}
+footer .footer-link:hover{
+	background-color: #C6EBBE;
+	border-radius: 20%;
+}
+
+/* PAGE ACCUEIL */
+
+.cont_index {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+	background-color: #C6EBBE;
+}
+.videoindex video {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+.intro {
+    margin-top: 20px;
+    text-align: center;
+}
+.intro-text {
+    max-width: 800px;
+    margin: 0 auto;
+}
+.intro h2 {
+    color: #136F63;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+.intro p {
+    color: #555;
+    font-size: 18px;
+    line-height: 1.5;
+}
+.tendances {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+.tendance {
+    width: 30%;
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* PAGE HISTOIRE */
+
+.cont_hist{
+	background-color: #C6EBBE;
+	text-align: center;
+	max-width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+}
+.story,
+.description,
+.values {
+    background-color: #fff;
+    margin-bottom: 40px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+}
+
+.story img,
+.description img,
+.values img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
+
+
+/* PAGE BOUTIQUE */
+
+.cont_bout{
+	margin-bottom: 40px;
+    display: block;
+	width: 100%;
+	background-color: #C6EBBE;
+	text-align: center;
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    grid-gap: 20px; 
+}
+
+.product {
+    text-align: center;
+}
+
+.product img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+}
+
+.product p {
+    margin-bottom: 10px;
+}
+
+.product button {
+    background-color: #136F63;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.product button:hover {
+    background-color: #C6EBBE;
+}
+
+/* PAGE CONTACT */
+
+.cont_contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+	background-color: #C6EBBE;
+}
+
+.contactez-nous {
+    margin: 20px auto;
+    padding: 30px;
+    width: 700px;
+    border-radius: 15px;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.contactez-nous h2 {
+    color: #136F63;
+}
+
+.contactez-nous p {
+    margin-bottom: 20px;
+}
+
+.contactez-nous select,
+.contactez-nous input[type="text"],
+.contactez-nous input[type="email"],
+.contactez-nous input[type="checkbox"],
+.contactez-nous textarea {
+    width: calc(100% - 20px);
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.contactez-nous textarea {
+    height: 200px;
+    resize: vertical;
+}
+
+.contactez-nous button[type="submit"] {
+    width: 100%;
+    background-color: #136F63;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contactez-nous button[type="submit"]:hover {
+    background-color: #0c4c44;
+}
+
+/* PAGE A PROPOS */
+
+.cont_propos {
+    max-width: 60%;
+    margin: 0 auto;
+    padding: 20px;
+	background-color: #C6EBBE;
+}
+
+.team {
+    background-color: #fff;
+    margin-bottom: 40px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.team h2 {
+    color: #136F63;
+}
+
+.member {
+    margin-bottom: 20px;
+}
+
+.member img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.member h3 {
+    margin-bottom: 5px;
+}
+
+.member p {
+    color: #777;
+	font-size: 18px;
+}
+
+/* PAGE COMMANDE */
+
+.cont_cmd {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+	background-color: #C6EBBE;
+}
+
+.orders {
+    background-color: #fff;
+    margin-bottom: 40px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+}
+
+.orders h2 {
+    color: #136F63;
+}
+
+.orders ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.orders li {
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.orders h3 {
+    margin-bottom: 5px;
+}
+
+.orders p {
+    margin: 5px 0;
+}
+
+/* PAGE PROFIL */
+
+.cont_profil {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+	background-color: #C6EBBE;
+}
+
+.profile {
+    background-color: #fff;
+    margin-bottom: 40px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+}
+
+.profile h2 {
+    color: #136F63;
+}
+
+.profile form {
+    display: flex;
+    flex-direction: column;
+}
+
+.profile label {
+    margin-bottom: 10px;
+}
+
+.profile input {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.profile button {
+    padding: 10px 20px;
+    background-color: #136F63;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.profile button:hover {
+    background-color: #0e503c;
+}
+
