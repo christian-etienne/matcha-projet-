@@ -209,8 +209,12 @@ button{
 .cont_contact {
     display: flex;
 <<<<<<< HEAD
+<<<<<<< HEAD
     justify-content: center;
     align-items: center;
+=======
+    justify-content: space-between;
+>>>>>>> fb9c447068fe71047edd38c5f2d3a012e6be3987
 =======
     justify-content: space-between;
 >>>>>>> fb9c447068fe71047edd38c5f2d3a012e6be3987
@@ -236,6 +240,7 @@ hr{
 h2{
     margin-left: 20px;
     margin-right: 20px;
+<<<<<<< HEAD
 }
 .hr_contact{ 
     border: none;
@@ -248,6 +253,8 @@ h2{
 .text_contact{
     text-align: center;
     margin-left: 40px;
+=======
+>>>>>>> fb9c447068fe71047edd38c5f2d3a012e6be3987
 }
 .contactez-nous {
     margin-top: 80px;
