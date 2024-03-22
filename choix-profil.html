@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Le T Matcha - Histoire</title>
+    <title>Le T Matcha - Boutique</title>
     <link rel="icon" type="image/ico" href="favicon.ico" />
-    <link rel="stylesheet" href="styleindex.css"> 
+    <link rel="stylesheet" href="styleindex.css">
 </head>
 <body>
     <header>
@@ -18,30 +18,19 @@
 
     <aside class="sidebar">
         <div class="menu">
-            <a class="lien_index" href="profil.html">Profil</a>
-            <a class="lien_index" href="commande.html">Commandes</a>
+            <a class="lien_index" href="boutique.html">Boutique</a>
+            <a class="lien_index" href="histoire.html">Histoire</a>
+            <a class="lien_index" href="apropos.html">A propos</a>
+            <a class="lien_index" href="contact.html">Contact</a>
         </div>
     </aside>
-    
+
     <main>
-        <div class="cont_profil">
-            <section class="profil">
-                <h2>Modifier Votre Profil</h2>
-                <form>
-                    <label for="nom">Nom :</label>
-                    <input type="text" id="nom" name="nom" placeholder="Entrez votre nom">
-
-                    <label for="prenom">Prénom :</label>
-                    <input type="text" id="prenom" name="prenom" placeholder="Entrez votre prénom">
-
-                    <label for="email">Email :</label>
-                    <input type="email" id="email" name="email" placeholder="Entrez votre email">
-
-                    <label for="adresse">Adresse :</label>
-                    <input type="text" id="adresse" name="adresse" placeholder="Entrez votre adresse">
-
-                    <button type="submit">Enregistrer</button>
-                </form>
+        <div class="profil_choix">
+            <section class="bouton_choix">
+                <h2>Choisissez votre profil</h2>
+                <a href="profil.html"><input type="button" value="Mon compte utilisateur"></a>
+                <a href="admin-commandes.html"><input type="button" value="Mon compte administrateur"></a>
             </section>
         </div>
     </main>
@@ -59,10 +48,10 @@
                 </ul>
             </nav>
             <img id="thanks" src="images/thanks.webp" alt="Thanks">
-                <p>Campus des Innovations <br>
-                    Place du 8 mai 1945 <br>
-                    13500 Martigues
-                </p>
+            <p>Campus des Innovations <br>
+                Place du 8 mai 1945 <br>
+                13500 Martigues
+            </p>
         </section>
     </footer>
 </body>
